@@ -1,0 +1,34 @@
+node_modules
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and distribution files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Environment secrets (API Keys, Passwords)
+.env
+.env.local
+.env.*.local
+
+# IDE and System specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
